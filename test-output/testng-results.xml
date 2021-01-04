@@ -1,80 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="6" passed="5" failed="0" skipped="0">
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-01-04T12:34:30 ART" name="Suite" finished-at="2021-01-04T12:34:49 ART" duration-ms="18855">
+  <suite started-at="2021-01-04T14:30:49 ART" name="Default suite" finished-at="2021-01-04T14:31:07 ART" duration-ms="18258">
     <groups>
-      <group name="alertas">
-        <method signature="Compendiumdev.verificarBoton1()[pri:0, instance:casosReales.Compendiumdev@62e7f11d]" name="verificarBoton1" class="casosReales.Compendiumdev"/>
-        <method signature="Compendiumdev.verificarBoton2()[pri:1, instance:casosReales.Compendiumdev@62e7f11d]" name="verificarBoton2" class="casosReales.Compendiumdev"/>
-        <method signature="Compendiumdev.verificarBoton3()[pri:2, instance:casosReales.Compendiumdev@62e7f11d]" name="verificarBoton3" class="casosReales.Compendiumdev"/>
-      </group> <!-- alertas -->
     </groups>
-    <test started-at="2021-01-04T12:34:30 ART" name="Test" finished-at="2021-01-04T12:34:49 ART" duration-ms="18855">
-      <class name="casosReales.Compendiumdev">
-        <test-method is-config="true" signature="inicio()[pri:0, instance:casosReales.Compendiumdev@62e7f11d]" started-at="2021-01-04T12:34:30 ART" name="inicio" finished-at="2021-01-04T12:34:38 ART" duration-ms="7828" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- inicio -->
-        <test-method is-config="true" signature="f()[pri:0, instance:casosReales.Compendiumdev@62e7f11d]" started-at="2021-01-04T12:34:46 ART" name="f" finished-at="2021-01-04T12:34:46 ART" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method signature="verificarBoton1()[pri:0, instance:casosReales.Compendiumdev@62e7f11d]" started-at="2021-01-04T12:34:46 ART" name="verificarBoton1" finished-at="2021-01-04T12:34:46 ART" duration-ms="182" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verificarBoton1 -->
-        <test-method is-config="true" signature="volverLandingPage()[pri:0, instance:casosReales.Compendiumdev@62e7f11d]" started-at="2021-01-04T12:34:46 ART" name="volverLandingPage" finished-at="2021-01-04T12:34:46 ART" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- volverLandingPage -->
-        <test-method is-config="true" signature="f()[pri:0, instance:casosReales.Compendiumdev@62e7f11d]" started-at="2021-01-04T12:34:46 ART" name="f" finished-at="2021-01-04T12:34:46 ART" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method signature="verificarBoton2()[pri:1, instance:casosReales.Compendiumdev@62e7f11d]" started-at="2021-01-04T12:34:46 ART" name="verificarBoton2" finished-at="2021-01-04T12:34:46 ART" duration-ms="266" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verificarBoton2 -->
-        <test-method is-config="true" signature="volverLandingPage()[pri:0, instance:casosReales.Compendiumdev@62e7f11d]" started-at="2021-01-04T12:34:46 ART" name="volverLandingPage" finished-at="2021-01-04T12:34:46 ART" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- volverLandingPage -->
-        <test-method is-config="true" signature="f()[pri:0, instance:casosReales.Compendiumdev@62e7f11d]" started-at="2021-01-04T12:34:46 ART" name="f" finished-at="2021-01-04T12:34:46 ART" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method signature="verificarBoton3()[pri:2, instance:casosReales.Compendiumdev@62e7f11d]" started-at="2021-01-04T12:34:46 ART" name="verificarBoton3" finished-at="2021-01-04T12:34:46 ART" duration-ms="279" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verificarBoton3 -->
-        <test-method is-config="true" signature="volverLandingPage()[pri:0, instance:casosReales.Compendiumdev@62e7f11d]" started-at="2021-01-04T12:34:46 ART" name="volverLandingPage" finished-at="2021-01-04T12:34:46 ART" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- volverLandingPage -->
-        <test-method is-config="true" signature="finalizar()[pri:0, instance:casosReales.Compendiumdev@62e7f11d]" started-at="2021-01-04T12:34:46 ART" name="finalizar" finished-at="2021-01-04T12:34:47 ART" duration-ms="697" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- finalizar -->
-      </class> <!-- casosReales.Compendiumdev -->
+    <test started-at="2021-01-04T14:30:49 ART" name="Default test" finished-at="2021-01-04T14:31:07 ART" duration-ms="18258">
       <class name="casosReales.Omayo">
-        <test-method is-config="true" signature="accederPagina()[pri:0, instance:casosReales.Omayo@503d687a]" started-at="2021-01-04T12:34:38 ART" name="accederPagina" finished-at="2021-01-04T12:34:46 ART" duration-ms="8027" status="PASS">
+        <test-method is-config="true" signature="accederPagina()[pri:0, instance:casosReales.Omayo@73ee04c8]" started-at="2021-01-04T14:30:49 ART" name="accederPagina" finished-at="2021-01-04T14:31:02 ART" duration-ms="13284" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accederPagina -->
-        <test-method signature="tituloPagina()[pri:0, instance:casosReales.Omayo@503d687a]" started-at="2021-01-04T12:34:46 ART" name="tituloPagina" finished-at="2021-01-04T12:34:46 ART" duration-ms="16" status="PASS">
+        <test-method signature="envioMail()[pri:2, instance:casosReales.Omayo@73ee04c8]" started-at="2021-01-04T14:31:02 ART" name="envioMail" finished-at="2021-01-04T14:31:06 ART" duration-ms="4012" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tituloPagina -->
-        <test-method signature="textoDesaparece()[pri:2, instance:casosReales.Omayo@503d687a]" started-at="2021-01-04T12:34:46 ART" name="textoDesaparece" finished-at="2021-01-04T12:34:46 ART" duration-ms="71" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- textoDesaparece -->
-        <test-method is-config="true" signature="cerrarPagina()[pri:0, instance:casosReales.Omayo@503d687a]" started-at="2021-01-04T12:34:47 ART" name="cerrarPagina" finished-at="2021-01-04T12:34:49 ART" duration-ms="1381" status="PASS">
+        </test-method> <!-- envioMail -->
+        <test-method is-config="true" signature="cerrarPagina()[pri:0, instance:casosReales.Omayo@73ee04c8]" started-at="2021-01-04T14:31:06 ART" name="cerrarPagina" finished-at="2021-01-04T14:31:07 ART" duration-ms="859" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cerrarPagina -->
       </class> <!-- casosReales.Omayo -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
