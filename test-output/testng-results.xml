@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="6" passed="0" failed="0" skipped="5">
+<testng-results ignored="1" total="6" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-01-04T12:00:07 ART" name="Suite" finished-at="2021-01-04T12:00:08 ART" duration-ms="249">
+  <suite started-at="2021-01-04T12:34:30 ART" name="Suite" finished-at="2021-01-04T12:34:49 ART" duration-ms="18855">
     <groups>
       <group name="alertas">
         <method signature="Compendiumdev.verificarBoton1()[pri:0, instance:casosReales.Compendiumdev@62e7f11d]" name="verificarBoton1" class="casosReales.Compendiumdev"/>
@@ -10,319 +10,67 @@
         <method signature="Compendiumdev.verificarBoton3()[pri:2, instance:casosReales.Compendiumdev@62e7f11d]" name="verificarBoton3" class="casosReales.Compendiumdev"/>
       </group> <!-- alertas -->
     </groups>
-    <test started-at="2021-01-04T12:00:07 ART" name="Test" finished-at="2021-01-04T12:00:08 ART" duration-ms="249">
+    <test started-at="2021-01-04T12:34:30 ART" name="Test" finished-at="2021-01-04T12:34:49 ART" duration-ms="18855">
       <class name="casosReales.Compendiumdev">
-        <test-method is-config="true" signature="inicio()[pri:0, instance:casosReales.Compendiumdev@62e7f11d]" started-at="2021-01-04T12:00:07 ART" name="inicio" finished-at="2021-01-04T12:00:07 ART" duration-ms="21" status="FAIL">
-          <exception class="java.lang.Error">
-            <message>
-              <![CDATA[Unresolved compilation problems: 
-Util cannot be resolved to a type
-Util cannot be resolved to a type
-Util cannot be resolved
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Error: Unresolved compilation problems: 
-Util cannot be resolved to a type
-Util cannot be resolved to a type
-Util cannot be resolved
-
-at casosReales.Compendiumdev.inicio(Compendiumdev.java:88)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
-at org.testng.TestRunner.beforeRun(TestRunner.java:607)
-at org.testng.TestRunner.run(TestRunner.java:578)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Error -->
+        <test-method is-config="true" signature="inicio()[pri:0, instance:casosReales.Compendiumdev@62e7f11d]" started-at="2021-01-04T12:34:30 ART" name="inicio" finished-at="2021-01-04T12:34:38 ART" duration-ms="7828" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inicio -->
-        <test-method is-config="true" signature="f()[pri:0, instance:casosReales.Compendiumdev@62e7f11d]" started-at="2021-01-04T12:00:08 ART" name="f" finished-at="1969-12-31T21:00:00 ART" duration-ms="-1609772408033" status="SKIP">
+        <test-method is-config="true" signature="f()[pri:0, instance:casosReales.Compendiumdev@62e7f11d]" started-at="2021-01-04T12:34:46 ART" name="f" finished-at="2021-01-04T12:34:46 ART" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method signature="verificarBoton1()[pri:0, instance:casosReales.Compendiumdev@62e7f11d]" started-at="2021-01-04T12:00:08 ART" name="verificarBoton1" finished-at="2021-01-04T12:00:08 ART" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Error">
-            <message>
-              <![CDATA[Unresolved compilation problems: 
-Util cannot be resolved to a type
-Util cannot be resolved to a type
-Util cannot be resolved
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Error: Unresolved compilation problems: 
-Util cannot be resolved to a type
-Util cannot be resolved to a type
-Util cannot be resolved
-
-at casosReales.Compendiumdev.inicio(Compendiumdev.java:88)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
-at org.testng.TestRunner.beforeRun(TestRunner.java:607)
-at org.testng.TestRunner.run(TestRunner.java:578)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Error -->
+        <test-method signature="verificarBoton1()[pri:0, instance:casosReales.Compendiumdev@62e7f11d]" started-at="2021-01-04T12:34:46 ART" name="verificarBoton1" finished-at="2021-01-04T12:34:46 ART" duration-ms="182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificarBoton1 -->
-        <test-method is-config="true" signature="volverLandingPage()[pri:0, instance:casosReales.Compendiumdev@62e7f11d]" started-at="2021-01-04T12:00:08 ART" name="volverLandingPage" finished-at="1969-12-31T21:00:00 ART" duration-ms="-1609772408049" status="SKIP">
+        <test-method is-config="true" signature="volverLandingPage()[pri:0, instance:casosReales.Compendiumdev@62e7f11d]" started-at="2021-01-04T12:34:46 ART" name="volverLandingPage" finished-at="2021-01-04T12:34:46 ART" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- volverLandingPage -->
-        <test-method is-config="true" signature="f()[pri:0, instance:casosReales.Compendiumdev@62e7f11d]" started-at="2021-01-04T12:00:08 ART" name="f" finished-at="1969-12-31T21:00:00 ART" duration-ms="-1609772408061" status="SKIP">
+        <test-method is-config="true" signature="f()[pri:0, instance:casosReales.Compendiumdev@62e7f11d]" started-at="2021-01-04T12:34:46 ART" name="f" finished-at="2021-01-04T12:34:46 ART" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method signature="verificarBoton2()[pri:1, instance:casosReales.Compendiumdev@62e7f11d]" started-at="2021-01-04T12:00:08 ART" name="verificarBoton2" finished-at="2021-01-04T12:00:08 ART" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Error">
-            <message>
-              <![CDATA[Unresolved compilation problems: 
-Util cannot be resolved to a type
-Util cannot be resolved to a type
-Util cannot be resolved
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Error: Unresolved compilation problems: 
-Util cannot be resolved to a type
-Util cannot be resolved to a type
-Util cannot be resolved
-
-at casosReales.Compendiumdev.inicio(Compendiumdev.java:88)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
-at org.testng.TestRunner.beforeRun(TestRunner.java:607)
-at org.testng.TestRunner.run(TestRunner.java:578)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Error -->
+        <test-method signature="verificarBoton2()[pri:1, instance:casosReales.Compendiumdev@62e7f11d]" started-at="2021-01-04T12:34:46 ART" name="verificarBoton2" finished-at="2021-01-04T12:34:46 ART" duration-ms="266" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificarBoton2 -->
-        <test-method is-config="true" signature="volverLandingPage()[pri:0, instance:casosReales.Compendiumdev@62e7f11d]" started-at="2021-01-04T12:00:08 ART" name="volverLandingPage" finished-at="1969-12-31T21:00:00 ART" duration-ms="-1609772408080" status="SKIP">
+        <test-method is-config="true" signature="volverLandingPage()[pri:0, instance:casosReales.Compendiumdev@62e7f11d]" started-at="2021-01-04T12:34:46 ART" name="volverLandingPage" finished-at="2021-01-04T12:34:46 ART" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- volverLandingPage -->
-        <test-method is-config="true" signature="f()[pri:0, instance:casosReales.Compendiumdev@62e7f11d]" started-at="2021-01-04T12:00:08 ART" name="f" finished-at="1969-12-31T21:00:00 ART" duration-ms="-1609772408085" status="SKIP">
+        <test-method is-config="true" signature="f()[pri:0, instance:casosReales.Compendiumdev@62e7f11d]" started-at="2021-01-04T12:34:46 ART" name="f" finished-at="2021-01-04T12:34:46 ART" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method signature="verificarBoton3()[pri:2, instance:casosReales.Compendiumdev@62e7f11d]" started-at="2021-01-04T12:00:08 ART" name="verificarBoton3" finished-at="2021-01-04T12:00:08 ART" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Error">
-            <message>
-              <![CDATA[Unresolved compilation problems: 
-Util cannot be resolved to a type
-Util cannot be resolved to a type
-Util cannot be resolved
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Error: Unresolved compilation problems: 
-Util cannot be resolved to a type
-Util cannot be resolved to a type
-Util cannot be resolved
-
-at casosReales.Compendiumdev.inicio(Compendiumdev.java:88)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
-at org.testng.TestRunner.beforeRun(TestRunner.java:607)
-at org.testng.TestRunner.run(TestRunner.java:578)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Error -->
+        <test-method signature="verificarBoton3()[pri:2, instance:casosReales.Compendiumdev@62e7f11d]" started-at="2021-01-04T12:34:46 ART" name="verificarBoton3" finished-at="2021-01-04T12:34:46 ART" duration-ms="279" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificarBoton3 -->
-        <test-method is-config="true" signature="volverLandingPage()[pri:0, instance:casosReales.Compendiumdev@62e7f11d]" started-at="2021-01-04T12:00:08 ART" name="volverLandingPage" finished-at="1969-12-31T21:00:00 ART" duration-ms="-1609772408107" status="SKIP">
+        <test-method is-config="true" signature="volverLandingPage()[pri:0, instance:casosReales.Compendiumdev@62e7f11d]" started-at="2021-01-04T12:34:46 ART" name="volverLandingPage" finished-at="2021-01-04T12:34:46 ART" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- volverLandingPage -->
-        <test-method is-config="true" signature="finalizar()[pri:0, instance:casosReales.Compendiumdev@62e7f11d]" started-at="2021-01-04T12:00:08 ART" name="finalizar" finished-at="1969-12-31T21:00:00 ART" duration-ms="-1609772408135" status="SKIP">
+        <test-method is-config="true" signature="finalizar()[pri:0, instance:casosReales.Compendiumdev@62e7f11d]" started-at="2021-01-04T12:34:46 ART" name="finalizar" finished-at="2021-01-04T12:34:47 ART" duration-ms="697" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finalizar -->
       </class> <!-- casosReales.Compendiumdev -->
       <class name="casosReales.Omayo">
-        <test-method is-config="true" signature="accederPagina()[pri:0, instance:casosReales.Omayo@503d687a]" started-at="2021-01-04T12:00:07 ART" name="accederPagina" finished-at="1969-12-31T21:00:00 ART" duration-ms="-1609772407952" status="SKIP">
+        <test-method is-config="true" signature="accederPagina()[pri:0, instance:casosReales.Omayo@503d687a]" started-at="2021-01-04T12:34:38 ART" name="accederPagina" finished-at="2021-01-04T12:34:46 ART" duration-ms="8027" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accederPagina -->
-        <test-method signature="tituloPagina()[pri:0, instance:casosReales.Omayo@503d687a]" started-at="2021-01-04T12:00:08 ART" name="tituloPagina" finished-at="2021-01-04T12:00:08 ART" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Error">
-            <message>
-              <![CDATA[Unresolved compilation problems: 
-Util cannot be resolved to a type
-Util cannot be resolved to a type
-Util cannot be resolved
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Error: Unresolved compilation problems: 
-Util cannot be resolved to a type
-Util cannot be resolved to a type
-Util cannot be resolved
-
-at casosReales.Compendiumdev.inicio(Compendiumdev.java:88)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
-at org.testng.TestRunner.beforeRun(TestRunner.java:607)
-at org.testng.TestRunner.run(TestRunner.java:578)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Error -->
+        <test-method signature="tituloPagina()[pri:0, instance:casosReales.Omayo@503d687a]" started-at="2021-01-04T12:34:46 ART" name="tituloPagina" finished-at="2021-01-04T12:34:46 ART" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tituloPagina -->
-        <test-method signature="textoDesaparece()[pri:2, instance:casosReales.Omayo@503d687a]" started-at="2021-01-04T12:00:08 ART" name="textoDesaparece" finished-at="2021-01-04T12:00:08 ART" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Error">
-            <message>
-              <![CDATA[Unresolved compilation problems: 
-Util cannot be resolved to a type
-Util cannot be resolved to a type
-Util cannot be resolved
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Error: Unresolved compilation problems: 
-Util cannot be resolved to a type
-Util cannot be resolved to a type
-Util cannot be resolved
-
-at casosReales.Compendiumdev.inicio(Compendiumdev.java:88)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
-at org.testng.TestRunner.beforeRun(TestRunner.java:607)
-at org.testng.TestRunner.run(TestRunner.java:578)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Error -->
+        <test-method signature="textoDesaparece()[pri:2, instance:casosReales.Omayo@503d687a]" started-at="2021-01-04T12:34:46 ART" name="textoDesaparece" finished-at="2021-01-04T12:34:46 ART" duration-ms="71" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- textoDesaparece -->
-        <test-method is-config="true" signature="cerrarPagina()[pri:0, instance:casosReales.Omayo@503d687a]" started-at="2021-01-04T12:00:08 ART" name="cerrarPagina" finished-at="1969-12-31T21:00:00 ART" duration-ms="-1609772408142" status="SKIP">
+        <test-method is-config="true" signature="cerrarPagina()[pri:0, instance:casosReales.Omayo@503d687a]" started-at="2021-01-04T12:34:47 ART" name="cerrarPagina" finished-at="2021-01-04T12:34:49 ART" duration-ms="1381" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cerrarPagina -->
