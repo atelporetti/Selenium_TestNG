@@ -19,5 +19,5 @@ _Explicar como ejecutar las pruebas automatizadas_
 
 _Proyecto llevado adelante por:_
 
-* **[Mauro Valls](https://github.com/Maurovalls)** - *Trabajo Inicial* - 
-* **[Axel Poretti](https://github.com/atelporetti)** - *Trabajo Inicial* - 
+* **[Mauro Valls](https://github.com/Maurovalls)**
+* **[Axel Poretti](https://github.com/atelporetti)**
