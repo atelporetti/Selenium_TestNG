@@ -1,47 +1,25 @@
 package clasesUtiles;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.InputStream;
-import java.io.OutputStream;
 
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.edge.*;					// Edge
-import org.openqa.selenium.edge.EdgeDriverService.Builder;
-import org.openqa.selenium.firefox.*;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.*;
-
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeDriverService;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 //import com.itextpdf.text.log.SysoCounter;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Properties;
-
-import javax.activation.DataHandler;
-import javax.activation.DataSource;
-import javax.activation.FileDataSource;
-import javax.mail.BodyPart;
-import javax.mail.Message;
-import javax.mail.MessagingException;
-import javax.mail.Multipart;
-import javax.mail.Session;
-import javax.mail.Transport;
+import java.io.*;
+import java.util.*;
+import javax.activation.*;
+import javax.mail.*;
 import javax.mail.internet.AddressException;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeBodyPart;
 import javax.mail.internet.MimeMessage;
 import javax.mail.internet.MimeMultipart;
 
-import java.util.Iterator;
 //*************************************************************
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.commons.io.FileUtils;
@@ -155,7 +133,7 @@ public class Util {
 	
 	public Util() {}
 	
-	public static WebDriver setUpManual(){
+	public static WebDriver setUpEdgeChromium(){
 			Util datos = new Util();
 			DesiredCapabilities entorno = DesiredCapabilities.edge();
 			entorno.setCapability(CapabilityType.BROWSER_NAME, datos.getNombreNavegador());

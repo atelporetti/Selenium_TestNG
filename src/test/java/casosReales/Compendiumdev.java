@@ -27,10 +27,29 @@ import org.testng.annotations.*;
  * 12. Verificar si el texto en la pagina es el mismo que el introducido en la alerta
  */
 
-
 @Test
 public class Compendiumdev {
 	public WebDriver driver;
+
+	@BeforeTest
+	public void inicio() {
+		Util datos = new Util();
+		datos.setUrlBase("http://compendiumdev.co.uk/selenium/testpages/alerts.html");
+		driver = Util.setUpEdgeChromium();
+		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+		driver.get(datos.getUrlBase());
+	}
+
+	@BeforeMethod
+	public void f() {
+		System.out.println("----------Inicio Prueba----------");
+
+	}
+
+	@AfterMethod
+	public void volverLandingPage() {
+		System.out.println("----------Fin Prueba----------");
+	}
 
 	@Test(priority = 0, groups = "alertas")
 	public void verificarBoton1() {
@@ -72,26 +91,6 @@ public class Compendiumdev {
 		} catch (TimeoutException toe) {
 			System.out.println(toe.toString());
 		}
-	}
-
-	@BeforeMethod
-	public void f() {
-		System.out.println("----------Inicio Prueba----------");
-
-	}
-
-	@AfterMethod
-	public void volverLandingPage() {
-		System.out.println("----------Fin Prueba----------");
-	}
-
-	@BeforeTest
-	public void inicio() {
-		Util datos = new Util();
-		datos.setUrlBase("http://compendiumdev.co.uk/selenium/testpages/alerts.html");
-		driver = Util.setUpManual();
-		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-		driver.get(datos.getUrlBase());
 	}
 
 	@AfterTest

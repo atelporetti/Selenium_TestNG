@@ -56,7 +56,7 @@ public class Omayo {
 
 	@BeforeTest
 	public void accederPagina() {
-		driver = Util.setUpManual();
+		driver = Util.setUpEdgeChromium();
 		driver.get("http://omayo.blogspot.com/");
 		driver.manage().window().maximize();
 	}
