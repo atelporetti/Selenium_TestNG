@@ -15,7 +15,7 @@ import org.openqa.selenium.chrome.*;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
-import com.itextpdf.text.log.SysoCounter;
+//import com.itextpdf.text.log.SysoCounter;
 
 import java.io.File;
 import java.io.FileInputStream;
