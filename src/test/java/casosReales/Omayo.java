@@ -238,50 +238,29 @@ public class Omayo {
 	}
 	
 	//Darle prioridades
-	
-	@Test()
-    public void testMenuHome(){
-        Util menu = new Util();
-        String verificar = "Home";
-        String selectLink1 = "Home";
-        expectedResult = "omayo (QAFox.com)";
-        menu.menu(actualResult,expectedResult,selectLink1,verificar);
+   
+    @Test()
+    public void multiSelectBox1(){
+        util = new Util();
+        String css = "select[id='multiselect1']";
+        String opcion = "Volvo";
+        util.multiSelectedBox(opcion,css);
     }
 
     @Test()
-    public void testMenuSelenium143(){
-        Util menu = new Util();
-        String verificar = "Blogs";
-        String selectLink1 = "Selenium143";
-        expectedResult = "Selenium143";
-        menu.menu(actualResult,expectedResult,selectLink1,verificar);
+    public void multiSelectBox2(){
+        util = new Util();
+        String css = "select[id='multiselect1']";
+        String opcion = "Hyundai";
+        util.multiSelectedBox(opcion,css);
     }
 
     @Test()
-    public void testSeleniumByArun(){
-    	Util menu = new Util();
-        String verificar = "Blogs";
-        String selectLink1 = "SeleniumByArun";
-        expectedResult = "Selenium-By-Arun";
-        menu.menu(actualResult,expectedResult,selectLink1,verificar);
-    }
-
-    @Test()
-    public void testSeleniumOneByArun(){
-    	Util menu = new Util();
-        String verificar = "Blogs";
-        String selectLink1 = "SeleniumOneByArun";
-        expectedResult = "SeleniumOne (QAFox.com)";
-        menu.menu(actualResult,expectedResult,selectLink1,verificar);
-    }
-
-    @Test()
-    public void testSeleniumTwoByArun(){
-    	Util menu = new Util();
-        String verificar = "Blogs";
-        String selectLink1 = "SeleniumTwoByArun";
-        expectedResult = "SeleniumTwo (QAFox.com)";
-        menu.menu(actualResult,expectedResult,selectLink1,verificar);
+    public void multiSelectBox3() throws InterruptedException {
+        util = new Util();
+        String css = "select[name='SiteMap']";
+        String opcion = "doc 4";
+        util.multiSelectedBox(opcion,css);
     }
 
 	
