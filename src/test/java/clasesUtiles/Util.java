@@ -7,6 +7,7 @@ import org.openqa.selenium.edge.EdgeDriverService;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.Assert;
 
 //import com.itextpdf.text.log.SysoCounter;
 
@@ -312,6 +313,25 @@ public class Util {
 			mex.printStackTrace();
 		}
 	}
+
+	//Metodo para verificar que el menu funciona correctamente
+	public void menu(String actualResult,String expectedResult,String selectLink1,String verificar){
+        if(verificar.equals("Home")) {
+            driver.findElement(By.linkText(selectLink1)).click();
+            actualResult = driver.getTitle();
+            Assert.assertEquals(actualResult, expectedResult, "El resultado esperado no es igual");
+            driver.navigate().back();
+        }else if (verificar.equals("Blogs")){
+            driver.findElement(By.linkText(verificar)).click();
+            driver.findElement(By.linkText(selectLink1)).click();
+            actualResult = driver.getTitle();
+            Assert.assertEquals(actualResult, expectedResult, "El resultado esperado no es igual");
+            driver.navigate().back();
+        }
+    }
+	
+
+
 	
 	/*
 	 * public static String[][] getInfoExcel(){ String nombreArchivo =

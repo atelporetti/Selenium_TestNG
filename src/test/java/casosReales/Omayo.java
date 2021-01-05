@@ -11,6 +11,8 @@ import org.testng.annotations.*;
 public class Omayo {
 
 	WebDriver driver;
+	String expectedResult = "";
+	String actualResult = "";
 
 /*
  * INICIO TEST CASE
@@ -139,9 +141,52 @@ public class Omayo {
 		Util.enviaAdjuntoEmailSSL("aaxelporetti@gmail.com", "*****", "aaxelporetti@gmail.com", "Prueba Asunto", "Prueba cuerpo mail", "\\src\\test\\java\\casosReales\\Compendiumdev.java");
 	}
 	
+	//Darle prioridades
 	
-	
-	
-	
+	@Test()
+    public void testMenuHome(){
+        Util menu = new Util();
+        String verificar = "Home";
+        String selectLink1 = "Home";
+        expectedResult = "omayo (QAFox.com)";
+        menu.menu(actualResult,expectedResult,selectLink1,verificar);
+    }
+
+    @Test()
+    public void testMenuSelenium143(){
+        Util menu = new Util();
+        String verificar = "Blogs";
+        String selectLink1 = "Selenium143";
+        expectedResult = "Selenium143";
+        menu.menu(actualResult,expectedResult,selectLink1,verificar);
+    }
+
+    @Test()
+    public void testSeleniumByArun(){
+    	Util menu = new Util();
+        String verificar = "Blogs";
+        String selectLink1 = "SeleniumByArun";
+        expectedResult = "Selenium-By-Arun";
+        menu.menu(actualResult,expectedResult,selectLink1,verificar);
+    }
+
+    @Test()
+    public void testSeleniumOneByArun(){
+    	Util menu = new Util();
+        String verificar = "Blogs";
+        String selectLink1 = "SeleniumOneByArun";
+        expectedResult = "SeleniumOne (QAFox.com)";
+        menu.menu(actualResult,expectedResult,selectLink1,verificar);
+    }
+
+    @Test()
+    public void testSeleniumTwoByArun(){
+    	Util menu = new Util();
+        String verificar = "Blogs";
+        String selectLink1 = "SeleniumTwoByArun";
+        expectedResult = "SeleniumTwo (QAFox.com)";
+        menu.menu(actualResult,expectedResult,selectLink1,verificar);
+    }
+
 	
 }
