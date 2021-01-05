@@ -19,6 +19,8 @@ import org.testng.annotations.*;
 public class Omayo {
 	Util util = new Util();
 	WebDriver driver;
+	String expectedResult = "";
+	String actualResult = "";
 
 	/*
 	 * INICIO TEST CASE
@@ -53,10 +55,10 @@ public class Omayo {
 	 * consola 24.En el Iframe2, hacer click en el link Chapter4 y luego abaja a la
 	 * izquierda pasar e mouse sobre el elemento "Mouse over this", copiar el
 	 * mensaje de la alerta y cerrarlo 25.En la LoginSection, ingresar el usuario y
-	 * contraseña, darle al boton "Cancel", comprobar que borre los datos ingresados
+	 * contraseï¿½a, darle al boton "Cancel", comprobar que borre los datos ingresados
 	 * anteriormente, volver a cargarlos y darle al boton "Login". Copiar el mensaje
 	 * de la alerta y cerrarla 26.En el cuadro de busqueda (cssSelector:
-	 * input[name=q][title=search]) colocar la palabra "Feliz Año Nuevo" y comprobar
+	 * input[name=q][title=search]) colocar la palabra "Feliz Aï¿½o Nuevo" y comprobar
 	 * si se encuentran resultados (cssSelector: div.status-msg-body) 27.Verificar
 	 * que la url de la pagina haya cambiado a
 	 * "http://omayo.blogspot.com/search?q=Feliz+A%C3%B1o+Nuevo" 28.Comprobar que el
@@ -234,5 +236,53 @@ public class Omayo {
 		Util.enviaAdjuntoEmailSSL("aaxelporetti@gmail.com", "*****", "aaxelporetti@gmail.com", "Prueba Asunto",
 				"Prueba cuerpo mail", "\\src\\test\\java\\casosReales\\Compendiumdev.java");
 	}
+	
+	//Darle prioridades
+	
+	@Test()
+    public void testMenuHome(){
+        Util menu = new Util();
+        String verificar = "Home";
+        String selectLink1 = "Home";
+        expectedResult = "omayo (QAFox.com)";
+        menu.menu(actualResult,expectedResult,selectLink1,verificar);
+    }
 
+    @Test()
+    public void testMenuSelenium143(){
+        Util menu = new Util();
+        String verificar = "Blogs";
+        String selectLink1 = "Selenium143";
+        expectedResult = "Selenium143";
+        menu.menu(actualResult,expectedResult,selectLink1,verificar);
+    }
+
+    @Test()
+    public void testSeleniumByArun(){
+    	Util menu = new Util();
+        String verificar = "Blogs";
+        String selectLink1 = "SeleniumByArun";
+        expectedResult = "Selenium-By-Arun";
+        menu.menu(actualResult,expectedResult,selectLink1,verificar);
+    }
+
+    @Test()
+    public void testSeleniumOneByArun(){
+    	Util menu = new Util();
+        String verificar = "Blogs";
+        String selectLink1 = "SeleniumOneByArun";
+        expectedResult = "SeleniumOne (QAFox.com)";
+        menu.menu(actualResult,expectedResult,selectLink1,verificar);
+    }
+
+    @Test()
+    public void testSeleniumTwoByArun(){
+    	Util menu = new Util();
+        String verificar = "Blogs";
+        String selectLink1 = "SeleniumTwoByArun";
+        expectedResult = "SeleniumTwo (QAFox.com)";
+        menu.menu(actualResult,expectedResult,selectLink1,verificar);
+    }
+
+	
 }
