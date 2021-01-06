@@ -315,7 +315,7 @@ public class Util {
 		}
 	}
 	
-	//Metodo para elegir las opciones "Volvo" y "Hyundai" 7 , elegir del menu desplegabla de abajo, la opcion "doc 4"
+	//Metodo para elegir las opciones "Volvo" y "Hyundai" ,elegir del menu desplegabla de abajo, la opcion "doc 4"
 	public void multiSelectedBox(String opcion,String css){
         Select combo = new Select(driver.findElement(By.cssSelector(css)));
         combo.selectByVisibleText(opcion);

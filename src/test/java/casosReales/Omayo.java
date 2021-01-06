@@ -237,11 +237,9 @@ public class Omayo {
 				"Prueba cuerpo mail", "\\src\\test\\java\\casosReales\\Compendiumdev.java");
 	}
 	
-	//Darle prioridades
-   
+	//Darle prioridades  
     @Test()
     public void multiSelectBox1(){
-        util = new Util();
         String css = "select[id='multiselect1']";
         String opcion = "Volvo";
         util.multiSelectedBox(opcion,css);
@@ -249,7 +247,6 @@ public class Omayo {
 
     @Test()
     public void multiSelectBox2(){
-        util = new Util();
         String css = "select[id='multiselect1']";
         String opcion = "Hyundai";
         util.multiSelectedBox(opcion,css);
@@ -257,10 +254,25 @@ public class Omayo {
 
     @Test()
     public void multiSelectBox3() throws InterruptedException {
-        util = new Util();
         String css = "select[name='SiteMap']";
         String opcion = "doc 4";
         util.multiSelectedBox(opcion,css);
+    }
+    
+    /*En la caja de ingreso de datos, donde dice "Selenium WebDriver", corroborar que este escrito ese texto inicialmente. 
+    Luego cambiarlo por otro y comprobar que quedo escrito
+    */
+    @Test()
+    public void TextBox(){
+        WebElement caja = driver.findElement(By.cssSelector("input[id='textbox1']"));
+        actualResult = caja.getAttribute("value");
+        expectedResult = "Selenium WebDriver";
+        Assert.assertEquals(actualResult,expectedResult, "No es igual al resultado esperado");
+        caja.clear();
+        caja.sendKeys("JAVA");
+        actualResult = caja.getAttribute("value");
+        expectedResult = "JAVA";
+        Assert.assertEquals(actualResult,expectedResult, "No es igual al resultado esperado");
     }
 
 	
