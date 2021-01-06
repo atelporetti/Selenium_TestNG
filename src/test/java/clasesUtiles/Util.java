@@ -321,6 +321,16 @@ public class Util {
         combo.selectByVisibleText(opcion);
     }
 	
+	public void enabledDisabled(String css, boolean expected){
+        boolean result = driver.findElement(By.cssSelector(css)).isEnabled();
+        Assert.assertEquals(result,expected, "El resultado no es el esprado");
+    }
+
+    public void buttonName(String actualResult,String expectedResult,String xpath){
+        actualResult = driver.findElement(By.xpath(xpath)).getText();
+        Assert.assertEquals(actualResult,expectedResult,"No es igual al resultado esperado");
+    }
+	
 	
 
 

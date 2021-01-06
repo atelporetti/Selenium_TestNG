@@ -275,12 +275,49 @@ public class Omayo {
         Assert.assertEquals(actualResult,expectedResult, "No es igual al resultado esperado");
     }
     
-    //Comprobar que el boton "Enabled button" este activo
-    @Test
+    //7.Comprobar que el boton "Enabled button" este activo
+    @Test()
     public void buttonEnabled(){
-    boolean result = driver.findElement(By.cssSelector("button[id='but2']")).isEnabled();
-    Assert.assertEquals(result,true, "El resultado no es el esprado");
+    String css = "button[id='but2']";
+    boolean expected = true;
+    util.enabledDisabled(css, expected);
     }
+   //8. Comprobar que el boton "Disabled  button" este inactivo
+    @Test()
+    public void buttonDisabled(){
+        String css = "button[id='but1']";
+        boolean expected = false;
+        util.enabledDisabled(css, expected);
+    }
+    //9. Comprobar que la Text Box este inactiva
+    @Test()
+    public void textBox(){
+        boolean result = driver.findElement(By.cssSelector("input[id='tb2']")).isEnabled();
+        Assert.assertEquals(result,false,"No es igual al resultado esperado");
+    }
+    //10.Comprobar que los 3 botones tengan respectivamente como texto legible "Submit", "Login" y "Register"
+    @Test()
+    public void buttonSubmit(){
+        String xpath = "//*[@id=\"HTML10\"]/div[1]/button[1]";
+        expectedResult = "Submit";
+        util.buttonName(actualResult,expectedResult,xpath);
+    }
+
+    @Test()
+    public void buttonLogin(){
+        String xpath = "//*[@id=\"HTML10\"]/div[1]/button[2]";
+        expectedResult = "Login";
+        util.buttonName(actualResult,expectedResult,xpath);
+    }
+
+    @Test()
+    public void buttonRegister(){
+        String xpath = "//*[@id=\"HTML10\"]/div[1]/button[3]";
+        expectedResult = "Register";
+        util.buttonName(actualResult,expectedResult,xpath);
+    }
+    
+    
 
 	
 }
