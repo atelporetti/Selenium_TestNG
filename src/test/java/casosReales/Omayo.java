@@ -274,6 +274,13 @@ public class Omayo {
         expectedResult = "JAVA";
         Assert.assertEquals(actualResult,expectedResult, "No es igual al resultado esperado");
     }
+    
+    //Comprobar que el boton "Enabled button" este activo
+    @Test
+    public void buttonEnabled(){
+    boolean result = driver.findElement(By.cssSelector("button[id='but2']")).isEnabled();
+    Assert.assertEquals(result,true, "El resultado no es el esprado");
+    }
 
 	
 }
