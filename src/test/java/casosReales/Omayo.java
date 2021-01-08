@@ -317,6 +317,22 @@ public class Omayo {
         util.buttonName(actualResult,expectedResult,xpath);
     }
     
+    //11.Comprobar que la lista ordenada tenga 6 elementos
+    @Test()
+    public void orderedList(){
+     String xpath ="//*[@id=\"HTML25\"]/div[1]/ol";
+     String identificador = "ordered";
+     util.listOrdered(xpath,identificador);
+    }
+
+    //12.Comprobar que la lista desordenada contenga un elemento "Pomegranate"
+    @Test()
+    public void unOrderedList(){
+        String xpath ="//*[@id=\"HTML26\"]/div[1]/ul";
+        String identificador = "unordered";
+        util.listOrdered(xpath,identificador);
+    }
+    
     
 
 	
